@@ -1,8 +1,8 @@
 
 # git地址
-repo: https://github.com/libuv/libuv/archive/refs/tags/v1.46.0.zip
+repo: https://github.com/libuv/libuv.git
 # 发布版本
-ver: 1
+ver: 1.46.0
 # 发布tag前缀
 tag_prefix: v
 tag_dot2ul: false
