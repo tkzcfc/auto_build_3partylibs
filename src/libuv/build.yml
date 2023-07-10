@@ -1,8 +1,8 @@
 
 # git地址
-repo: https://github.com/llvm/llvm-project.git
+repo: https://github.com/libuv/libuv/archive/refs/tags/v1.46.0.zip
 # 发布版本
-ver: 1.46.0
+ver: 1
 # 发布tag前缀
 tag_prefix: v
 tag_dot2ul: false
@@ -12,4 +12,3 @@ cb_tool: cmake
 config_options_unix: -LIBUV_BUILD_SHARED=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF
 config_options_embed:
 config_options_msw: -LIBUV_BUILD_SHARED=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF
-
