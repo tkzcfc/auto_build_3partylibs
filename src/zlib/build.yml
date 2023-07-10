@@ -1,0 +1,8 @@
+repo: https://github.com/madler/zlib.git
+ver: 1.2.13
+tag_prefix: v
+tag_dot2ul: false
+cb_tool: cmake
+config_options_unix: -DZLIB_BUILD_EXAMPLES=OFF -DZLIB_BUILD_SHARED=OFF
+config_options_embed: ''
+config_options_msw: -DZLIB_BUILD_EXAMPLES=OFF -DZLIB_BUILD_STATIC=OFF
