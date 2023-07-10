@@ -15,7 +15,7 @@ on:
     inputs:
       no_dll:
          # actions run ID
-         description: 'Do not build windows lib as dll'
+         description: 'Do not build windows lib as dll (true/false default:false)'
          # Default value if no value is explicitly provided
          default: ''
          # Input has to be provided for the workflow to run
