@@ -112,7 +112,7 @@ if ((Get-Module -ListAvailable -Name powershell-yaml) -eq $null) {
 }
 
 if ("$BUILD_LIBS" -eq "") {
-    $BUILD_LIBS = "zlib,openssl,cares,curl"
+    $BUILD_LIBS = "libuv"
 }
 
 $BUILD_LIBS = $BUILD_LIBS -split ","
